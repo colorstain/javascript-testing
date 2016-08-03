@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "test sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/.setup.js test/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-airbnb": "^2.0.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "expect": "^1.20.2",
+    "mocha": "^3.0.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "sinon": "^1.17.5"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-register": "^6.11.6",
+    "jsdom": "^9.4.1",
+    "react-addons-test-utils": "^15.3.0"
+  }
+}
